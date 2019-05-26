@@ -3,7 +3,7 @@ def oxford_comma(array)
   if array.size == 1
     answer = array.join
   else
-    array.pop
+    lastItem = array.pop
     array.join(", ")
     puts array
   end
