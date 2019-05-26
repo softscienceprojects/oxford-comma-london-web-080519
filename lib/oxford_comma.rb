@@ -1,6 +1,7 @@
 def oxford_comma(array)
+  answer = ""
   if array.size == 1
-    array.join
+    answer = array.join
   else
     array.pop
     array.join(", ")
